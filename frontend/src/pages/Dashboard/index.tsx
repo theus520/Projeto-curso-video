@@ -5,12 +5,12 @@ import Footer from "components/Footer";
 import NavBar from "components/NavBar";
 
 
-const Dashbord = () => {
+const Dashboard = () => {
     return (
         <>
             <NavBar />
             <div className="container" >
-                <h1 className="text-primary py-3">Dashbord de vendas   </h1>
+                <h1 className="text-primary py-3">Dashboard de vendas   </h1>
                 <div className="row px-3">
                     <div className="col-sm-6">
                         <h5 className="text-center text-secondary">taxa de sucesso (%)</h5>
@@ -36,4 +36,4 @@ const Dashbord = () => {
         </>
     );
 }
-export default Dashbord;
+export default Dashboard;

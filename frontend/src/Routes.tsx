@@ -1,5 +1,5 @@
 
-import Dashbord from 'pages/Dashbord';
+import Dashboard from 'pages/Dashboard';
 import Home from 'pages/Home';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -11,8 +11,8 @@ const Routes = () => {
                 <Route path="/" exact >
                     <Home />
                 </Route>
-                <Route path="/dashbord" >
-                    <Dashbord />
+                <Route path="/Dashboard" >
+                    <Dashboard />
                 </Route>
 
             </Switch>
